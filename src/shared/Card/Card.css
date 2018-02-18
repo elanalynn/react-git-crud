@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  height: 100%;
+  width: 24em;
+  border: 1px solid #ccc;
+  box-shadow:  2px 2px 2px 1px #ddd;
+}
+
+img {
+  width: 8em;
+  height: 100%;
+}
+
+.user-data {
+  width: 100%;
+}
+
+.header {
+  background: deeppink;
+  color: white;
+  font-weight: bold;
+  padding: .5em 1em;
+  margin-bottom: .25em;
+}
+
+.user-data p {
+  margin: 0 1em;
+}

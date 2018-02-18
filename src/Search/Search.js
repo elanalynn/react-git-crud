@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import './Search.css';
 
-class Form extends Component {
+class Search extends Component {
   state = {
     userName: ''
   }
@@ -30,7 +31,6 @@ class Form extends Component {
       <form onSubmit={this.handleSubmit}>
         <input type="text" 
                placeholder="Github username" 
-               //  ref={input => this.userNameInput = input}
                value={this.state.userName}
                onChange={event => this.setState({ userName: event.target.value })}
                required/>
@@ -40,4 +40,4 @@ class Form extends Component {
   }
 }
 
-export default Form;
+export default Search;

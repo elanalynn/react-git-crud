@@ -1,0 +1,16 @@
+form {
+  margin-bottom: 1.5em;
+}
+
+input {
+  padding: .5em;
+}
+
+button {
+  margin-left: 1em;
+  border-radius: 0;
+  background: rgb(59, 71, 112);
+  border: 0;
+  padding: .6em 1em;
+  color: white;
+}
