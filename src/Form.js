@@ -8,6 +8,7 @@ class Form extends Component {
   handleSubmit = e => {
     e.preventDefault();
     this.getUserData(this.state.userName);
+    this.setState({userName: ''})
   }
 
   getUserData = username => {
